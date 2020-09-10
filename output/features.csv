@@ -1,0 +1,372 @@
+,0
+0,<Feature: Country>
+1,<Feature: Developed / Developing Countries>
+2,<Feature: IncomeGroup>
+3,<Feature: Land Locked Developing Countries (LLDC)>
+4,<Feature: Least Developed Countries (LDC)>
+5,<Feature: Small Island Developing States (SIDS)>
+6,<Feature: Subregion ID>
+7,<Feature: COUNT(countries_at_olympic_games)>
+8,<Feature: NUM_UNIQUE(countries_at_olympic_games.Olympic Games Name)>
+9,<Feature: NUM_UNIQUE(countries_at_olympic_games.Olympic Games ID)>
+10,<Feature: MODE(countries_at_olympic_games.Olympic Games Name)>
+11,<Feature: MODE(countries_at_olympic_games.Olympic Games ID)>
+12,<Feature: COUNT(medals_won)>
+13,<Feature: NUM_UNIQUE(medals_won.Medal)>
+14,<Feature: NUM_UNIQUE(medals_won.Event)>
+15,<Feature: NUM_UNIQUE(medals_won.Discipline)>
+16,<Feature: MODE(medals_won.Medal)>
+17,<Feature: MODE(medals_won.Event)>
+18,<Feature: MODE(medals_won.Discipline)>
+19,<Feature: COUNT(medaling_athletes)>
+20,<Feature: NUM_UNIQUE(medaling_athletes.Athlete)>
+21,<Feature: MODE(medaling_athletes.Athlete)>
+22,<Feature: SUM(countries_at_olympic_games.NUM_UNIQUE(medals_won.Medal))>
+23,<Feature: SUM(countries_at_olympic_games.NUM_UNIQUE(medals_won.Event))>
+24,<Feature: SUM(countries_at_olympic_games.NUM_UNIQUE(medaling_athletes.Athlete))>
+25,<Feature: SUM(countries_at_olympic_games.NUM_UNIQUE(medals_won.Discipline))>
+26,<Feature: STD(countries_at_olympic_games.NUM_UNIQUE(medals_won.Medal))>
+27,<Feature: STD(countries_at_olympic_games.NUM_UNIQUE(medals_won.Event))>
+28,<Feature: STD(countries_at_olympic_games.COUNT(medals_won))>
+29,<Feature: STD(countries_at_olympic_games.NUM_UNIQUE(medaling_athletes.Athlete))>
+30,<Feature: STD(countries_at_olympic_games.NUM_UNIQUE(medals_won.Discipline))>
+31,<Feature: STD(countries_at_olympic_games.COUNT(medaling_athletes))>
+32,<Feature: MAX(countries_at_olympic_games.NUM_UNIQUE(medals_won.Medal))>
+33,<Feature: MAX(countries_at_olympic_games.NUM_UNIQUE(medals_won.Event))>
+34,<Feature: MAX(countries_at_olympic_games.COUNT(medals_won))>
+35,<Feature: MAX(countries_at_olympic_games.NUM_UNIQUE(medaling_athletes.Athlete))>
+36,<Feature: MAX(countries_at_olympic_games.NUM_UNIQUE(medals_won.Discipline))>
+37,<Feature: MAX(countries_at_olympic_games.COUNT(medaling_athletes))>
+38,<Feature: MIN(countries_at_olympic_games.NUM_UNIQUE(medals_won.Medal))>
+39,<Feature: MIN(countries_at_olympic_games.NUM_UNIQUE(medals_won.Event))>
+40,<Feature: MIN(countries_at_olympic_games.COUNT(medals_won))>
+41,<Feature: MIN(countries_at_olympic_games.NUM_UNIQUE(medaling_athletes.Athlete))>
+42,<Feature: MIN(countries_at_olympic_games.NUM_UNIQUE(medals_won.Discipline))>
+43,<Feature: MIN(countries_at_olympic_games.COUNT(medaling_athletes))>
+44,<Feature: MEAN(countries_at_olympic_games.NUM_UNIQUE(medals_won.Medal))>
+45,<Feature: MEAN(countries_at_olympic_games.NUM_UNIQUE(medals_won.Event))>
+46,<Feature: MEAN(countries_at_olympic_games.COUNT(medals_won))>
+47,<Feature: MEAN(countries_at_olympic_games.NUM_UNIQUE(medaling_athletes.Athlete))>
+48,<Feature: MEAN(countries_at_olympic_games.NUM_UNIQUE(medals_won.Discipline))>
+49,<Feature: MEAN(countries_at_olympic_games.COUNT(medaling_athletes))>
+50,<Feature: COUNT(countries_at_olympic_games WHERE Olympic Games Name = Sydney 2000-06-30)>
+51,<Feature: COUNT(countries_at_olympic_games WHERE Olympic Games Name = London 2012-06-30)>
+52,<Feature: COUNT(countries_at_olympic_games WHERE Olympic Games Name = Athens 2004-06-30)>
+53,<Feature: COUNT(countries_at_olympic_games WHERE Olympic Games Name = Atlanta 1996-06-30)>
+54,<Feature: COUNT(countries_at_olympic_games WHERE Olympic Games Name = Beijing 2008-06-30)>
+55,<Feature: NUM_UNIQUE(countries_at_olympic_games.olympic_games.City)>
+56,<Feature: NUM_UNIQUE(countries_at_olympic_games.MODE(medals_won.Medal))>
+57,<Feature: NUM_UNIQUE(countries_at_olympic_games.MODE(medals_won.Discipline))>
+58,<Feature: NUM_UNIQUE(countries_at_olympic_games.MODE(medaling_athletes.Athlete))>
+59,<Feature: NUM_UNIQUE(countries_at_olympic_games.MODE(medals_won.Event))>
+60,<Feature: MODE(countries_at_olympic_games.olympic_games.City)>
+61,<Feature: MODE(countries_at_olympic_games.MODE(medals_won.Medal))>
+62,<Feature: MODE(countries_at_olympic_games.MODE(medals_won.Discipline))>
+63,<Feature: MODE(countries_at_olympic_games.MODE(medaling_athletes.Athlete))>
+64,<Feature: MODE(countries_at_olympic_games.MODE(medals_won.Event))>
+65,"<Feature: TREND(countries_at_olympic_games.NUM_UNIQUE(medals_won.Event), Year)>"
+66,"<Feature: TREND(countries_at_olympic_games.COUNT(medaling_athletes), Year)>"
+67,"<Feature: TREND(countries_at_olympic_games.COUNT(medals_won), Year)>"
+68,"<Feature: TREND(countries_at_olympic_games.NUM_UNIQUE(medaling_athletes.Athlete), Year)>"
+69,"<Feature: TREND(countries_at_olympic_games.NUM_UNIQUE(medals_won.Medal), Year)>"
+70,"<Feature: TREND(countries_at_olympic_games.NUM_UNIQUE(medals_won.Discipline), Year)>"
+71,<Feature: SKEW(countries_at_olympic_games.NUM_UNIQUE(medals_won.Medal))>
+72,<Feature: SKEW(countries_at_olympic_games.NUM_UNIQUE(medals_won.Event))>
+73,<Feature: SKEW(countries_at_olympic_games.COUNT(medals_won))>
+74,<Feature: SKEW(countries_at_olympic_games.NUM_UNIQUE(medaling_athletes.Athlete))>
+75,<Feature: SKEW(countries_at_olympic_games.NUM_UNIQUE(medals_won.Discipline))>
+76,<Feature: SKEW(countries_at_olympic_games.COUNT(medaling_athletes))>
+77,<Feature: SUM(medals_won.NUM_UNIQUE(medaling_athletes.Athlete))>
+78,<Feature: STD(medals_won.NUM_UNIQUE(medaling_athletes.Athlete))>
+79,<Feature: STD(medals_won.COUNT(medaling_athletes))>
+80,<Feature: MAX(medals_won.NUM_UNIQUE(medaling_athletes.Athlete))>
+81,<Feature: MAX(medals_won.COUNT(medaling_athletes))>
+82,<Feature: MIN(medals_won.NUM_UNIQUE(medaling_athletes.Athlete))>
+83,<Feature: MIN(medals_won.COUNT(medaling_athletes))>
+84,<Feature: MEAN(medals_won.NUM_UNIQUE(medaling_athletes.Athlete))>
+85,<Feature: MEAN(medals_won.COUNT(medaling_athletes))>
+86,<Feature: COUNT(medals_won WHERE Medal = Bronze)>
+87,<Feature: COUNT(medals_won WHERE Medal = Gold)>
+88,<Feature: COUNT(medals_won WHERE Medal = Silver)>
+89,<Feature: NUM_UNIQUE(medals_won.countries_at_olympic_games.Olympic Games Name)>
+90,<Feature: NUM_UNIQUE(medals_won.countries_at_olympic_games.Country)>
+91,<Feature: NUM_UNIQUE(medals_won.disciplines.Sport)>
+92,<Feature: NUM_UNIQUE(medals_won.MODE(medaling_athletes.Athlete))>
+93,<Feature: NUM_UNIQUE(medals_won.countries_at_olympic_games.Olympic Games ID)>
+94,<Feature: MODE(medals_won.countries_at_olympic_games.Olympic Games Name)>
+95,<Feature: MODE(medals_won.countries_at_olympic_games.Country)>
+96,<Feature: MODE(medals_won.disciplines.Sport)>
+97,<Feature: MODE(medals_won.MODE(medaling_athletes.Athlete))>
+98,<Feature: MODE(medals_won.countries_at_olympic_games.Olympic Games ID)>
+99,"<Feature: TREND(medals_won.COUNT(medaling_athletes), Year)>"
+100,"<Feature: TREND(medals_won.COUNT(medaling_athletes), countries_at_olympic_games.Year)>"
+101,"<Feature: TREND(medals_won.COUNT(medaling_athletes), disciplines.Debut Year)>"
+102,"<Feature: TREND(medals_won.NUM_UNIQUE(medaling_athletes.Athlete), Year)>"
+103,"<Feature: TREND(medals_won.NUM_UNIQUE(medaling_athletes.Athlete), countries_at_olympic_games.Year)>"
+104,"<Feature: TREND(medals_won.NUM_UNIQUE(medaling_athletes.Athlete), disciplines.Debut Year)>"
+105,<Feature: SKEW(medals_won.NUM_UNIQUE(medaling_athletes.Athlete))>
+106,<Feature: SKEW(medals_won.COUNT(medaling_athletes))>
+107,<Feature: NUM_UNIQUE(medaling_athletes.medals_won.Discipline)>
+108,<Feature: NUM_UNIQUE(medaling_athletes.medals_won.Country Olympic ID)>
+109,<Feature: NUM_UNIQUE(medaling_athletes.medals_won.Event)>
+110,<Feature: NUM_UNIQUE(medaling_athletes.medals_won.Medal)>
+111,<Feature: MODE(medaling_athletes.medals_won.Discipline)>
+112,<Feature: MODE(medaling_athletes.medals_won.Country Olympic ID)>
+113,<Feature: MODE(medaling_athletes.medals_won.Event)>
+114,<Feature: MODE(medaling_athletes.medals_won.Medal)>
+115,<Feature: SUM(countries_at_olympic_games.olympic_games.NUM_UNIQUE(countries_at_olympic_games.Olympic Games Name))>
+116,<Feature: SUM(countries_at_olympic_games.olympic_games.COUNT(medaling_athletes))>
+117,<Feature: SUM(countries_at_olympic_games.olympic_games.COUNT(countries_at_olympic_games))>
+118,<Feature: SUM(countries_at_olympic_games.olympic_games.NUM_UNIQUE(medals_won.Event))>
+119,<Feature: SUM(countries_at_olympic_games.olympic_games.COUNT(medals_won))>
+120,<Feature: SUM(countries_at_olympic_games.MAX(medals_won.COUNT(medaling_athletes)))>
+121,<Feature: SUM(countries_at_olympic_games.MEAN(medals_won.COUNT(medaling_athletes)))>
+122,<Feature: SUM(countries_at_olympic_games.olympic_games.NUM_UNIQUE(medaling_athletes.Athlete))>
+123,<Feature: SUM(countries_at_olympic_games.olympic_games.NUM_UNIQUE(medals_won.Medal))>
+124,<Feature: SUM(countries_at_olympic_games.olympic_games.NUM_UNIQUE(medals_won.Discipline))>
+125,"<Feature: SUM(countries_at_olympic_games.TREND(medals_won.NUM_UNIQUE(medaling_athletes.Athlete), Year))>"
+126,<Feature: SUM(countries_at_olympic_games.SKEW(medals_won.COUNT(medaling_athletes)))>
+127,<Feature: SUM(countries_at_olympic_games.NUM_UNIQUE(medaling_athletes.medals_won.Medal))>
+128,<Feature: SUM(countries_at_olympic_games.SKEW(medals_won.NUM_UNIQUE(medaling_athletes.Athlete)))>
+129,"<Feature: SUM(countries_at_olympic_games.TREND(medals_won.COUNT(medaling_athletes), Year))>"
+130,<Feature: SUM(countries_at_olympic_games.NUM_UNIQUE(medals_won.disciplines.Sport))>
+131,<Feature: SUM(countries_at_olympic_games.MIN(medals_won.COUNT(medaling_athletes)))>
+132,<Feature: SUM(countries_at_olympic_games.MEAN(medals_won.NUM_UNIQUE(medaling_athletes.Athlete)))>
+133,<Feature: SUM(countries_at_olympic_games.NUM_UNIQUE(medaling_athletes.medals_won.Country Olympic ID))>
+134,<Feature: SUM(countries_at_olympic_games.STD(medals_won.COUNT(medaling_athletes)))>
+135,<Feature: SUM(countries_at_olympic_games.MAX(medals_won.NUM_UNIQUE(medaling_athletes.Athlete)))>
+136,<Feature: SUM(countries_at_olympic_games.STD(medals_won.NUM_UNIQUE(medaling_athletes.Athlete)))>
+137,<Feature: SUM(countries_at_olympic_games.MIN(medals_won.NUM_UNIQUE(medaling_athletes.Athlete)))>
+138,"<Feature: SUM(countries_at_olympic_games.TREND(medals_won.NUM_UNIQUE(medaling_athletes.Athlete), disciplines.Debut Year))>"
+139,<Feature: SUM(countries_at_olympic_games.NUM_UNIQUE(medaling_athletes.medals_won.Discipline))>
+140,"<Feature: SUM(countries_at_olympic_games.TREND(medals_won.COUNT(medaling_athletes), disciplines.Debut Year))>"
+141,<Feature: SUM(countries_at_olympic_games.NUM_UNIQUE(medals_won.MODE(medaling_athletes.Athlete)))>
+142,<Feature: SUM(countries_at_olympic_games.NUM_UNIQUE(medaling_athletes.medals_won.Event))>
+143,<Feature: SUM(countries_at_olympic_games.olympic_games.NUM_UNIQUE(countries_at_olympic_games.Country))>
+144,<Feature: STD(countries_at_olympic_games.olympic_games.NUM_UNIQUE(countries_at_olympic_games.Olympic Games Name))>
+145,<Feature: STD(countries_at_olympic_games.olympic_games.COUNT(medaling_athletes))>
+146,<Feature: STD(countries_at_olympic_games.olympic_games.COUNT(countries_at_olympic_games))>
+147,<Feature: STD(countries_at_olympic_games.olympic_games.NUM_UNIQUE(medals_won.Event))>
+148,<Feature: STD(countries_at_olympic_games.olympic_games.COUNT(medals_won))>
+149,<Feature: STD(countries_at_olympic_games.MAX(medals_won.COUNT(medaling_athletes)))>
+150,<Feature: STD(countries_at_olympic_games.MEAN(medals_won.COUNT(medaling_athletes)))>
+151,<Feature: STD(countries_at_olympic_games.olympic_games.NUM_UNIQUE(medaling_athletes.Athlete))>
+152,<Feature: STD(countries_at_olympic_games.olympic_games.NUM_UNIQUE(medals_won.Medal))>
+153,<Feature: STD(countries_at_olympic_games.olympic_games.NUM_UNIQUE(medals_won.Discipline))>
+154,"<Feature: STD(countries_at_olympic_games.TREND(medals_won.NUM_UNIQUE(medaling_athletes.Athlete), Year))>"
+155,<Feature: STD(countries_at_olympic_games.SKEW(medals_won.COUNT(medaling_athletes)))>
+156,<Feature: STD(countries_at_olympic_games.NUM_UNIQUE(medaling_athletes.medals_won.Medal))>
+157,<Feature: STD(countries_at_olympic_games.SKEW(medals_won.NUM_UNIQUE(medaling_athletes.Athlete)))>
+158,"<Feature: STD(countries_at_olympic_games.TREND(medals_won.COUNT(medaling_athletes), Year))>"
+159,<Feature: STD(countries_at_olympic_games.NUM_UNIQUE(medals_won.disciplines.Sport))>
+160,<Feature: STD(countries_at_olympic_games.MIN(medals_won.COUNT(medaling_athletes)))>
+161,<Feature: STD(countries_at_olympic_games.MEAN(medals_won.NUM_UNIQUE(medaling_athletes.Athlete)))>
+162,<Feature: STD(countries_at_olympic_games.NUM_UNIQUE(medaling_athletes.medals_won.Country Olympic ID))>
+163,<Feature: STD(countries_at_olympic_games.SUM(medals_won.NUM_UNIQUE(medaling_athletes.Athlete)))>
+164,<Feature: STD(countries_at_olympic_games.MAX(medals_won.NUM_UNIQUE(medaling_athletes.Athlete)))>
+165,<Feature: STD(countries_at_olympic_games.MIN(medals_won.NUM_UNIQUE(medaling_athletes.Athlete)))>
+166,<Feature: STD(countries_at_olympic_games.COUNT(medals_won WHERE Medal = Silver))>
+167,<Feature: STD(countries_at_olympic_games.COUNT(medals_won WHERE Medal = Gold))>
+168,"<Feature: STD(countries_at_olympic_games.TREND(medals_won.NUM_UNIQUE(medaling_athletes.Athlete), disciplines.Debut Year))>"
+169,<Feature: STD(countries_at_olympic_games.NUM_UNIQUE(medaling_athletes.medals_won.Discipline))>
+170,"<Feature: STD(countries_at_olympic_games.TREND(medals_won.COUNT(medaling_athletes), disciplines.Debut Year))>"
+171,<Feature: STD(countries_at_olympic_games.NUM_UNIQUE(medals_won.MODE(medaling_athletes.Athlete)))>
+172,<Feature: STD(countries_at_olympic_games.COUNT(medals_won WHERE Medal = Bronze))>
+173,<Feature: STD(countries_at_olympic_games.NUM_UNIQUE(medaling_athletes.medals_won.Event))>
+174,<Feature: STD(countries_at_olympic_games.olympic_games.NUM_UNIQUE(countries_at_olympic_games.Country))>
+175,<Feature: MAX(countries_at_olympic_games.olympic_games.NUM_UNIQUE(countries_at_olympic_games.Olympic Games Name))>
+176,<Feature: MAX(countries_at_olympic_games.olympic_games.COUNT(medaling_athletes))>
+177,<Feature: MAX(countries_at_olympic_games.olympic_games.COUNT(countries_at_olympic_games))>
+178,<Feature: MAX(countries_at_olympic_games.olympic_games.NUM_UNIQUE(medals_won.Event))>
+179,<Feature: MAX(countries_at_olympic_games.olympic_games.COUNT(medals_won))>
+180,<Feature: MAX(countries_at_olympic_games.MEAN(medals_won.COUNT(medaling_athletes)))>
+181,<Feature: MAX(countries_at_olympic_games.olympic_games.NUM_UNIQUE(medaling_athletes.Athlete))>
+182,<Feature: MAX(countries_at_olympic_games.olympic_games.NUM_UNIQUE(medals_won.Medal))>
+183,<Feature: MAX(countries_at_olympic_games.olympic_games.NUM_UNIQUE(medals_won.Discipline))>
+184,"<Feature: MAX(countries_at_olympic_games.TREND(medals_won.NUM_UNIQUE(medaling_athletes.Athlete), Year))>"
+185,<Feature: MAX(countries_at_olympic_games.SKEW(medals_won.COUNT(medaling_athletes)))>
+186,<Feature: MAX(countries_at_olympic_games.NUM_UNIQUE(medaling_athletes.medals_won.Medal))>
+187,<Feature: MAX(countries_at_olympic_games.SKEW(medals_won.NUM_UNIQUE(medaling_athletes.Athlete)))>
+188,"<Feature: MAX(countries_at_olympic_games.TREND(medals_won.COUNT(medaling_athletes), Year))>"
+189,<Feature: MAX(countries_at_olympic_games.NUM_UNIQUE(medals_won.disciplines.Sport))>
+190,<Feature: MAX(countries_at_olympic_games.MIN(medals_won.COUNT(medaling_athletes)))>
+191,<Feature: MAX(countries_at_olympic_games.MEAN(medals_won.NUM_UNIQUE(medaling_athletes.Athlete)))>
+192,<Feature: MAX(countries_at_olympic_games.NUM_UNIQUE(medaling_athletes.medals_won.Country Olympic ID))>
+193,<Feature: MAX(countries_at_olympic_games.STD(medals_won.COUNT(medaling_athletes)))>
+194,<Feature: MAX(countries_at_olympic_games.SUM(medals_won.NUM_UNIQUE(medaling_athletes.Athlete)))>
+195,<Feature: MAX(countries_at_olympic_games.STD(medals_won.NUM_UNIQUE(medaling_athletes.Athlete)))>
+196,<Feature: MAX(countries_at_olympic_games.MIN(medals_won.NUM_UNIQUE(medaling_athletes.Athlete)))>
+197,<Feature: MAX(countries_at_olympic_games.COUNT(medals_won WHERE Medal = Silver))>
+198,<Feature: MAX(countries_at_olympic_games.COUNT(medals_won WHERE Medal = Gold))>
+199,"<Feature: MAX(countries_at_olympic_games.TREND(medals_won.NUM_UNIQUE(medaling_athletes.Athlete), disciplines.Debut Year))>"
+200,<Feature: MAX(countries_at_olympic_games.NUM_UNIQUE(medaling_athletes.medals_won.Discipline))>
+201,"<Feature: MAX(countries_at_olympic_games.TREND(medals_won.COUNT(medaling_athletes), disciplines.Debut Year))>"
+202,<Feature: MAX(countries_at_olympic_games.NUM_UNIQUE(medals_won.MODE(medaling_athletes.Athlete)))>
+203,<Feature: MAX(countries_at_olympic_games.COUNT(medals_won WHERE Medal = Bronze))>
+204,<Feature: MAX(countries_at_olympic_games.NUM_UNIQUE(medaling_athletes.medals_won.Event))>
+205,<Feature: MAX(countries_at_olympic_games.olympic_games.NUM_UNIQUE(countries_at_olympic_games.Country))>
+206,<Feature: MIN(countries_at_olympic_games.olympic_games.NUM_UNIQUE(countries_at_olympic_games.Olympic Games Name))>
+207,<Feature: MIN(countries_at_olympic_games.olympic_games.COUNT(medaling_athletes))>
+208,<Feature: MIN(countries_at_olympic_games.olympic_games.COUNT(countries_at_olympic_games))>
+209,<Feature: MIN(countries_at_olympic_games.olympic_games.NUM_UNIQUE(medals_won.Event))>
+210,<Feature: MIN(countries_at_olympic_games.olympic_games.COUNT(medals_won))>
+211,<Feature: MIN(countries_at_olympic_games.MAX(medals_won.COUNT(medaling_athletes)))>
+212,<Feature: MIN(countries_at_olympic_games.MEAN(medals_won.COUNT(medaling_athletes)))>
+213,<Feature: MIN(countries_at_olympic_games.olympic_games.NUM_UNIQUE(medaling_athletes.Athlete))>
+214,<Feature: MIN(countries_at_olympic_games.olympic_games.NUM_UNIQUE(medals_won.Medal))>
+215,<Feature: MIN(countries_at_olympic_games.olympic_games.NUM_UNIQUE(medals_won.Discipline))>
+216,"<Feature: MIN(countries_at_olympic_games.TREND(medals_won.NUM_UNIQUE(medaling_athletes.Athlete), Year))>"
+217,<Feature: MIN(countries_at_olympic_games.SKEW(medals_won.COUNT(medaling_athletes)))>
+218,<Feature: MIN(countries_at_olympic_games.NUM_UNIQUE(medaling_athletes.medals_won.Medal))>
+219,<Feature: MIN(countries_at_olympic_games.SKEW(medals_won.NUM_UNIQUE(medaling_athletes.Athlete)))>
+220,"<Feature: MIN(countries_at_olympic_games.TREND(medals_won.COUNT(medaling_athletes), Year))>"
+221,<Feature: MIN(countries_at_olympic_games.NUM_UNIQUE(medals_won.disciplines.Sport))>
+222,<Feature: MIN(countries_at_olympic_games.MEAN(medals_won.NUM_UNIQUE(medaling_athletes.Athlete)))>
+223,<Feature: MIN(countries_at_olympic_games.NUM_UNIQUE(medaling_athletes.medals_won.Country Olympic ID))>
+224,<Feature: MIN(countries_at_olympic_games.STD(medals_won.COUNT(medaling_athletes)))>
+225,<Feature: MIN(countries_at_olympic_games.SUM(medals_won.NUM_UNIQUE(medaling_athletes.Athlete)))>
+226,<Feature: MIN(countries_at_olympic_games.MAX(medals_won.NUM_UNIQUE(medaling_athletes.Athlete)))>
+227,<Feature: MIN(countries_at_olympic_games.STD(medals_won.NUM_UNIQUE(medaling_athletes.Athlete)))>
+228,<Feature: MIN(countries_at_olympic_games.COUNT(medals_won WHERE Medal = Silver))>
+229,<Feature: MIN(countries_at_olympic_games.COUNT(medals_won WHERE Medal = Gold))>
+230,"<Feature: MIN(countries_at_olympic_games.TREND(medals_won.NUM_UNIQUE(medaling_athletes.Athlete), disciplines.Debut Year))>"
+231,<Feature: MIN(countries_at_olympic_games.NUM_UNIQUE(medaling_athletes.medals_won.Discipline))>
+232,"<Feature: MIN(countries_at_olympic_games.TREND(medals_won.COUNT(medaling_athletes), disciplines.Debut Year))>"
+233,<Feature: MIN(countries_at_olympic_games.NUM_UNIQUE(medals_won.MODE(medaling_athletes.Athlete)))>
+234,<Feature: MIN(countries_at_olympic_games.COUNT(medals_won WHERE Medal = Bronze))>
+235,<Feature: MIN(countries_at_olympic_games.NUM_UNIQUE(medaling_athletes.medals_won.Event))>
+236,<Feature: MIN(countries_at_olympic_games.olympic_games.NUM_UNIQUE(countries_at_olympic_games.Country))>
+237,<Feature: MEAN(countries_at_olympic_games.olympic_games.NUM_UNIQUE(countries_at_olympic_games.Olympic Games Name))>
+238,<Feature: MEAN(countries_at_olympic_games.olympic_games.COUNT(medaling_athletes))>
+239,<Feature: MEAN(countries_at_olympic_games.olympic_games.COUNT(countries_at_olympic_games))>
+240,<Feature: MEAN(countries_at_olympic_games.olympic_games.NUM_UNIQUE(medals_won.Event))>
+241,<Feature: MEAN(countries_at_olympic_games.olympic_games.COUNT(medals_won))>
+242,<Feature: MEAN(countries_at_olympic_games.MAX(medals_won.COUNT(medaling_athletes)))>
+243,<Feature: MEAN(countries_at_olympic_games.MEAN(medals_won.COUNT(medaling_athletes)))>
+244,<Feature: MEAN(countries_at_olympic_games.olympic_games.NUM_UNIQUE(medaling_athletes.Athlete))>
+245,<Feature: MEAN(countries_at_olympic_games.olympic_games.NUM_UNIQUE(medals_won.Medal))>
+246,<Feature: MEAN(countries_at_olympic_games.olympic_games.NUM_UNIQUE(medals_won.Discipline))>
+247,"<Feature: MEAN(countries_at_olympic_games.TREND(medals_won.NUM_UNIQUE(medaling_athletes.Athlete), Year))>"
+248,<Feature: MEAN(countries_at_olympic_games.SKEW(medals_won.COUNT(medaling_athletes)))>
+249,<Feature: MEAN(countries_at_olympic_games.NUM_UNIQUE(medaling_athletes.medals_won.Medal))>
+250,<Feature: MEAN(countries_at_olympic_games.SKEW(medals_won.NUM_UNIQUE(medaling_athletes.Athlete)))>
+251,"<Feature: MEAN(countries_at_olympic_games.TREND(medals_won.COUNT(medaling_athletes), Year))>"
+252,<Feature: MEAN(countries_at_olympic_games.NUM_UNIQUE(medals_won.disciplines.Sport))>
+253,<Feature: MEAN(countries_at_olympic_games.MIN(medals_won.COUNT(medaling_athletes)))>
+254,<Feature: MEAN(countries_at_olympic_games.MEAN(medals_won.NUM_UNIQUE(medaling_athletes.Athlete)))>
+255,<Feature: MEAN(countries_at_olympic_games.NUM_UNIQUE(medaling_athletes.medals_won.Country Olympic ID))>
+256,<Feature: MEAN(countries_at_olympic_games.STD(medals_won.COUNT(medaling_athletes)))>
+257,<Feature: MEAN(countries_at_olympic_games.SUM(medals_won.NUM_UNIQUE(medaling_athletes.Athlete)))>
+258,<Feature: MEAN(countries_at_olympic_games.MAX(medals_won.NUM_UNIQUE(medaling_athletes.Athlete)))>
+259,<Feature: MEAN(countries_at_olympic_games.STD(medals_won.NUM_UNIQUE(medaling_athletes.Athlete)))>
+260,<Feature: MEAN(countries_at_olympic_games.MIN(medals_won.NUM_UNIQUE(medaling_athletes.Athlete)))>
+261,<Feature: MEAN(countries_at_olympic_games.COUNT(medals_won WHERE Medal = Silver))>
+262,<Feature: MEAN(countries_at_olympic_games.COUNT(medals_won WHERE Medal = Gold))>
+263,"<Feature: MEAN(countries_at_olympic_games.TREND(medals_won.NUM_UNIQUE(medaling_athletes.Athlete), disciplines.Debut Year))>"
+264,<Feature: MEAN(countries_at_olympic_games.NUM_UNIQUE(medaling_athletes.medals_won.Discipline))>
+265,"<Feature: MEAN(countries_at_olympic_games.TREND(medals_won.COUNT(medaling_athletes), disciplines.Debut Year))>"
+266,<Feature: MEAN(countries_at_olympic_games.NUM_UNIQUE(medals_won.MODE(medaling_athletes.Athlete)))>
+267,<Feature: MEAN(countries_at_olympic_games.COUNT(medals_won WHERE Medal = Bronze))>
+268,<Feature: MEAN(countries_at_olympic_games.NUM_UNIQUE(medaling_athletes.medals_won.Event))>
+269,<Feature: MEAN(countries_at_olympic_games.olympic_games.NUM_UNIQUE(countries_at_olympic_games.Country))>
+270,<Feature: COUNT(countries_at_olympic_games WHERE olympic_games.City = Los Angeles)>
+271,<Feature: COUNT(countries_at_olympic_games WHERE olympic_games.City = Melbourne / Stockholm)>
+272,<Feature: COUNT(countries_at_olympic_games WHERE olympic_games.City = Paris)>
+273,<Feature: COUNT(countries_at_olympic_games WHERE olympic_games.City = Athens)>
+274,<Feature: COUNT(countries_at_olympic_games WHERE olympic_games.City = London)>
+275,<Feature: NUM_UNIQUE(countries_at_olympic_games.olympic_games.MODE(medaling_athletes.Athlete))>
+276,<Feature: NUM_UNIQUE(countries_at_olympic_games.MODE(medals_won.MODE(medaling_athletes.Athlete)))>
+277,<Feature: NUM_UNIQUE(countries_at_olympic_games.olympic_games.MODE(medals_won.Event))>
+278,<Feature: NUM_UNIQUE(countries_at_olympic_games.olympic_games.MODE(medals_won.Medal))>
+279,<Feature: NUM_UNIQUE(countries_at_olympic_games.MODE(medaling_athletes.medals_won.Medal))>
+280,<Feature: NUM_UNIQUE(countries_at_olympic_games.MODE(medaling_athletes.medals_won.Country Olympic ID))>
+281,<Feature: NUM_UNIQUE(countries_at_olympic_games.MODE(medaling_athletes.medals_won.Discipline))>
+282,<Feature: NUM_UNIQUE(countries_at_olympic_games.olympic_games.MODE(medals_won.Discipline))>
+283,<Feature: NUM_UNIQUE(countries_at_olympic_games.MODE(medals_won.disciplines.Sport))>
+284,<Feature: NUM_UNIQUE(countries_at_olympic_games.olympic_games.MODE(countries_at_olympic_games.Olympic Games Name))>
+285,<Feature: NUM_UNIQUE(countries_at_olympic_games.MODE(medaling_athletes.medals_won.Event))>
+286,<Feature: NUM_UNIQUE(countries_at_olympic_games.olympic_games.MODE(countries_at_olympic_games.Country))>
+287,<Feature: MODE(countries_at_olympic_games.olympic_games.MODE(medaling_athletes.Athlete))>
+288,<Feature: MODE(countries_at_olympic_games.MODE(medals_won.MODE(medaling_athletes.Athlete)))>
+289,<Feature: MODE(countries_at_olympic_games.olympic_games.MODE(medals_won.Event))>
+290,<Feature: MODE(countries_at_olympic_games.olympic_games.MODE(medals_won.Medal))>
+291,<Feature: MODE(countries_at_olympic_games.MODE(medaling_athletes.medals_won.Medal))>
+292,<Feature: MODE(countries_at_olympic_games.MODE(medaling_athletes.medals_won.Country Olympic ID))>
+293,<Feature: MODE(countries_at_olympic_games.MODE(medaling_athletes.medals_won.Discipline))>
+294,<Feature: MODE(countries_at_olympic_games.olympic_games.MODE(medals_won.Discipline))>
+295,<Feature: MODE(countries_at_olympic_games.MODE(medals_won.disciplines.Sport))>
+296,<Feature: MODE(countries_at_olympic_games.olympic_games.MODE(countries_at_olympic_games.Olympic Games Name))>
+297,<Feature: MODE(countries_at_olympic_games.MODE(medaling_athletes.medals_won.Event))>
+298,<Feature: MODE(countries_at_olympic_games.olympic_games.MODE(countries_at_olympic_games.Country))>
+299,"<Feature: TREND(countries_at_olympic_games.olympic_games.NUM_UNIQUE(medaling_athletes.Athlete), Year)>"
+300,"<Feature: TREND(countries_at_olympic_games.olympic_games.NUM_UNIQUE(countries_at_olympic_games.Country), Year)>"
+301,"<Feature: TREND(countries_at_olympic_games.MIN(medals_won.COUNT(medaling_athletes)), Year)>"
+302,"<Feature: TREND(countries_at_olympic_games.NUM_UNIQUE(medaling_athletes.medals_won.Medal), Year)>"
+303,"<Feature: TREND(countries_at_olympic_games.COUNT(medals_won WHERE Medal = Silver), Year)>"
+304,"<Feature: TREND(countries_at_olympic_games.MEAN(medals_won.NUM_UNIQUE(medaling_athletes.Athlete)), Year)>"
+305,"<Feature: TREND(countries_at_olympic_games.MEAN(medals_won.COUNT(medaling_athletes)), Year)>"
+306,"<Feature: TREND(countries_at_olympic_games.NUM_UNIQUE(medaling_athletes.medals_won.Country Olympic ID), Year)>"
+307,"<Feature: TREND(countries_at_olympic_games.SKEW(medals_won.COUNT(medaling_athletes)), Year)>"
+308,"<Feature: TREND(countries_at_olympic_games.NUM_UNIQUE(medals_won.MODE(medaling_athletes.Athlete)), Year)>"
+309,"<Feature: TREND(countries_at_olympic_games.SUM(medals_won.NUM_UNIQUE(medaling_athletes.Athlete)), Year)>"
+310,"<Feature: TREND(countries_at_olympic_games.STD(medals_won.COUNT(medaling_athletes)), Year)>"
+311,"<Feature: TREND(countries_at_olympic_games.MAX(medals_won.NUM_UNIQUE(medaling_athletes.Athlete)), Year)>"
+312,"<Feature: TREND(countries_at_olympic_games.olympic_games.NUM_UNIQUE(medals_won.Event), Year)>"
+313,"<Feature: TREND(countries_at_olympic_games.TREND(medals_won.COUNT(medaling_athletes), Year), Year)>"
+314,"<Feature: TREND(countries_at_olympic_games.NUM_UNIQUE(medaling_athletes.medals_won.Event), Year)>"
+315,"<Feature: TREND(countries_at_olympic_games.STD(medals_won.NUM_UNIQUE(medaling_athletes.Athlete)), Year)>"
+316,"<Feature: TREND(countries_at_olympic_games.COUNT(medals_won WHERE Medal = Gold), Year)>"
+317,"<Feature: TREND(countries_at_olympic_games.COUNT(medals_won WHERE Medal = Bronze), Year)>"
+318,"<Feature: TREND(countries_at_olympic_games.TREND(medals_won.NUM_UNIQUE(medaling_athletes.Athlete), disciplines.Debut Year), Year)>"
+319,"<Feature: TREND(countries_at_olympic_games.NUM_UNIQUE(medaling_athletes.medals_won.Discipline), Year)>"
+320,"<Feature: TREND(countries_at_olympic_games.olympic_games.NUM_UNIQUE(countries_at_olympic_games.Olympic Games Name), Year)>"
+321,"<Feature: TREND(countries_at_olympic_games.olympic_games.COUNT(medaling_athletes), Year)>"
+322,"<Feature: TREND(countries_at_olympic_games.TREND(medals_won.NUM_UNIQUE(medaling_athletes.Athlete), Year), Year)>"
+323,"<Feature: TREND(countries_at_olympic_games.TREND(medals_won.COUNT(medaling_athletes), disciplines.Debut Year), Year)>"
+324,"<Feature: TREND(countries_at_olympic_games.NUM_UNIQUE(medals_won.disciplines.Sport), Year)>"
+325,"<Feature: TREND(countries_at_olympic_games.MIN(medals_won.NUM_UNIQUE(medaling_athletes.Athlete)), Year)>"
+326,"<Feature: TREND(countries_at_olympic_games.olympic_games.NUM_UNIQUE(medals_won.Medal), Year)>"
+327,"<Feature: TREND(countries_at_olympic_games.olympic_games.COUNT(countries_at_olympic_games), Year)>"
+328,"<Feature: TREND(countries_at_olympic_games.MAX(medals_won.COUNT(medaling_athletes)), Year)>"
+329,"<Feature: TREND(countries_at_olympic_games.olympic_games.NUM_UNIQUE(medals_won.Discipline), Year)>"
+330,"<Feature: TREND(countries_at_olympic_games.olympic_games.COUNT(medals_won), Year)>"
+331,"<Feature: TREND(countries_at_olympic_games.SKEW(medals_won.NUM_UNIQUE(medaling_athletes.Athlete)), Year)>"
+332,<Feature: SKEW(countries_at_olympic_games.olympic_games.NUM_UNIQUE(countries_at_olympic_games.Olympic Games Name))>
+333,<Feature: SKEW(countries_at_olympic_games.olympic_games.COUNT(medaling_athletes))>
+334,<Feature: SKEW(countries_at_olympic_games.olympic_games.COUNT(countries_at_olympic_games))>
+335,<Feature: SKEW(countries_at_olympic_games.olympic_games.NUM_UNIQUE(medals_won.Event))>
+336,<Feature: SKEW(countries_at_olympic_games.olympic_games.COUNT(medals_won))>
+337,<Feature: SKEW(countries_at_olympic_games.MAX(medals_won.COUNT(medaling_athletes)))>
+338,<Feature: SKEW(countries_at_olympic_games.MEAN(medals_won.COUNT(medaling_athletes)))>
+339,<Feature: SKEW(countries_at_olympic_games.olympic_games.NUM_UNIQUE(medaling_athletes.Athlete))>
+340,<Feature: SKEW(countries_at_olympic_games.olympic_games.NUM_UNIQUE(medals_won.Medal))>
+341,<Feature: SKEW(countries_at_olympic_games.olympic_games.NUM_UNIQUE(medals_won.Discipline))>
+342,"<Feature: SKEW(countries_at_olympic_games.TREND(medals_won.NUM_UNIQUE(medaling_athletes.Athlete), Year))>"
+343,<Feature: SKEW(countries_at_olympic_games.NUM_UNIQUE(medaling_athletes.medals_won.Medal))>
+344,"<Feature: SKEW(countries_at_olympic_games.TREND(medals_won.COUNT(medaling_athletes), Year))>"
+345,<Feature: SKEW(countries_at_olympic_games.NUM_UNIQUE(medals_won.disciplines.Sport))>
+346,<Feature: SKEW(countries_at_olympic_games.MIN(medals_won.COUNT(medaling_athletes)))>
+347,<Feature: SKEW(countries_at_olympic_games.MEAN(medals_won.NUM_UNIQUE(medaling_athletes.Athlete)))>
+348,<Feature: SKEW(countries_at_olympic_games.NUM_UNIQUE(medaling_athletes.medals_won.Country Olympic ID))>
+349,<Feature: SKEW(countries_at_olympic_games.STD(medals_won.COUNT(medaling_athletes)))>
+350,<Feature: SKEW(countries_at_olympic_games.SUM(medals_won.NUM_UNIQUE(medaling_athletes.Athlete)))>
+351,<Feature: SKEW(countries_at_olympic_games.MAX(medals_won.NUM_UNIQUE(medaling_athletes.Athlete)))>
+352,<Feature: SKEW(countries_at_olympic_games.STD(medals_won.NUM_UNIQUE(medaling_athletes.Athlete)))>
+353,<Feature: SKEW(countries_at_olympic_games.MIN(medals_won.NUM_UNIQUE(medaling_athletes.Athlete)))>
+354,<Feature: SKEW(countries_at_olympic_games.COUNT(medals_won WHERE Medal = Silver))>
+355,<Feature: SKEW(countries_at_olympic_games.COUNT(medals_won WHERE Medal = Gold))>
+356,"<Feature: SKEW(countries_at_olympic_games.TREND(medals_won.NUM_UNIQUE(medaling_athletes.Athlete), disciplines.Debut Year))>"
+357,<Feature: SKEW(countries_at_olympic_games.NUM_UNIQUE(medaling_athletes.medals_won.Discipline))>
+358,"<Feature: SKEW(countries_at_olympic_games.TREND(medals_won.COUNT(medaling_athletes), disciplines.Debut Year))>"
+359,<Feature: SKEW(countries_at_olympic_games.NUM_UNIQUE(medals_won.MODE(medaling_athletes.Athlete)))>
+360,<Feature: SKEW(countries_at_olympic_games.COUNT(medals_won WHERE Medal = Bronze))>
+361,<Feature: SKEW(countries_at_olympic_games.NUM_UNIQUE(medaling_athletes.medals_won.Event))>
+362,<Feature: SKEW(countries_at_olympic_games.olympic_games.NUM_UNIQUE(countries_at_olympic_games.Country))>
+363,<Feature: COUNT(medals_won WHERE countries_at_olympic_games.Olympic Games Name = Beijing 2008-06-30)>
+364,<Feature: COUNT(medals_won WHERE countries_at_olympic_games.Olympic Games Name = Athens 2004-06-30)>
+365,<Feature: COUNT(medals_won WHERE countries_at_olympic_games.Olympic Games Name = London 2012-06-30)>
+366,<Feature: COUNT(medals_won WHERE countries_at_olympic_games.Olympic Games Name = Sydney 2000-06-30)>
+367,<Feature: COUNT(medals_won WHERE countries_at_olympic_games.Olympic Games Name = Atlanta 1996-06-30)>
+368,<Feature: COUNT(medaling_athletes WHERE medals_won.Medal = Bronze)>
+369,<Feature: COUNT(medaling_athletes WHERE medals_won.Medal = Gold)>
+370,<Feature: COUNT(medaling_athletes WHERE medals_won.Medal = Silver)>
