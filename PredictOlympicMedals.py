@@ -63,7 +63,8 @@ np.savetxt("labels.csv", y_binary, delimiter=",")
 
 
 feature_matrix.to_csv('output/feature_matrix.csv', encoding='utf-8')
-feature_matrix_encoded.to_csv('output/feature_matrix_encoded.csv', encoding='utf-8')
+feature_matrix_encoded.to_csv('output/feature_matrix_encoded_nan.csv', na_rep='nan', encoding='utf-8')
+feature_matrix_encoded.to_csv('output/feature_matrix_encoded_empty_space.csv', na_rep=" ", encoding='utf-8')
 
 features_df = pd.DataFrame(features)
 features_df.to_csv('output/features.csv', encoding='utf-8')
